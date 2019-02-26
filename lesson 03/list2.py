@@ -11,11 +11,7 @@
 
 
 def remove_adjacent(nums):
-    uniq = []
-    for num in nums:
-        if num not in uniq:
-            uniq.append(num)
-    return uniq
+    return [num for num in sorted(set(nums))]
 
 
 # E. Given two lists sorted in increasing order, create and return a merged
