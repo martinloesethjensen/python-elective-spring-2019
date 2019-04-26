@@ -7,6 +7,7 @@ def my_decorator(func):
     return wrapper
 
 
+@my_decorator
 def say_whee():
     print("Whee!")
 
