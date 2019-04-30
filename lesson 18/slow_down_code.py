@@ -22,7 +22,7 @@ def slow_down(func):
 @slow_down
 def countdown(from_number):
     print(from_number)
-    return countdown(from_number - 1) if from_number > 0 else 0
+    return countdown(from_number - 1) if from_number > 1 else 0
 
 
 if __name__ == '__main__':
